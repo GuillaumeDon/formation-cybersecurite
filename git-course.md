@@ -274,3 +274,43 @@ Avant de créer ton premier dépôt, active la fonctionnalité de sécurité Git
 
 👉 Prochaine étape : **installer Git sur ton ordinateur et le connecter à GitHub**.
 
+# 🛠️ Installation de Git et création d’un dépôt local
+
+---
+
+## 📥 1. Télécharger et installer Git
+
+👉 Rendez-vous sur [git-scm.com](https://git-scm.com/) pour télécharger Git.
+
+Choisissez la version selon votre système :
+
+- 💻 Windows
+- 🍎 macOS
+- 🐧 Linux / Unix
+
+### ✅ Étapes d’installation
+
+1. Exécutez le fichier téléchargé
+2. Cliquez sur **"Suivant"** à chaque étape
+3. Laissez les **options par défaut**
+4. Cliquez sur **"Installer"**
+
+> 💡 Sous **Windows**, cochez l’option `Launch Git Bash` à la fin de l’installation  
+> Sous **macOS** et **Linux**, utilisez directement votre **terminal**
+
+---
+
+## 💡 2. Git Bash, c’est quoi ?
+
+- **Git Bash** est un terminal pour Windows qui permet d’utiliser Git en ligne de commande.
+- Si tu es sur Linux/macOS, ton terminal habituel suffit.
+
+---
+
+## ⚙️ 3. Configurer Git après l’installation
+
+### 👤 Définir ton identité (obligatoire)
+
+```bash
+git config --global user.name "Ton Nom"
+git config --global user.email "ton@email.com"
